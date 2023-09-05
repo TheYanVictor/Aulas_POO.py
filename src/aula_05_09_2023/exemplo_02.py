@@ -19,4 +19,14 @@ class Alunos:
     def get_nome(self):
         return self.__nome
     
+    #Métodos de exibir dados
+    def exibir_dados(self):
+        print("RA: " + self.__ra + " Aluno: " + self.__nome)
+        
+a1 = Alunos()
+a1.set_ra("23151368")
+a1.set_nome("Jose Alencar")
+a1.exibir_dados()
+    
+    
     
