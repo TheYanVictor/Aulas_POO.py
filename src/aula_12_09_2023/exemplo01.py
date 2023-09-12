@@ -51,22 +51,53 @@ class Professores(Pessoas):
    
    def get_funcional(self):
       return self.__funcional
-      
+
+#Separa linha 
+print("---------------------------------------------------------------")
+     
 a1 = Alunos()
-a1.set_nome("Fulno de Tal")
-a1.set_cpf("888888888")
-a1.set_ra("1234")
+a1.set_nome("Augusto")
+a1.set_cpf("33322211145")
+a1.set_ra("2332455")
 a1.set_curso("ADS")
 a1.exibe_dados()
 print("RA: " + a1.get_ra())
 print("Curso: " + a1.get_curso())
 
+#Separa linha 
+print("---------------------------------------------------------------")
+
 p1 = Professores()
 #p1.set_ra("999999") Não é possível acessar métodos de outra classe, nesse caso, da classe Alunos
-p1.set_nome("professor Tanaka")
-p1.set_cpf("444444444")
-p1.set_funcional("22222")
+p1.set_nome("Fujitora")
+p1.set_cpf("77788855574")
+p1.set_funcional("6565656565")
 p1.exibe_dados()
 print("Professor: " + p1.get_nome())
 print("CPF: " + p1.get_cpf())
 print("Funcional: " + p1.get_funcional()) 
+
+#Separa linha 
+print("---------------------------------------------------------------")
+
+a2 = Alunos()
+a2.set_nome("Borsalino")
+a2.set_cpf("6666666645")
+a2.set_ra("783254658435")
+a2.set_curso("SBM")
+a2.exibe_dados()
+print("RA: " + a2.get_ra())
+print("Curso: " + a2.get_curso())
+
+#Separa linha 
+print("---------------------------------------------------------------")
+
+p2 = Professores()
+#p2.set_ra("999999") Não é possível acessar métodos de outra classe, nesse caso, da classe Alunos
+p2.set_nome("Kizaru")
+p2.set_cpf("87888888896")
+p2.set_funcional("3653943216")
+p2.exibe_dados()
+print("Professor: " + p2.get_nome())
+print("CPF: " + p2.get_cpf())
+print("Funcional: " + p2.get_funcional()) 
