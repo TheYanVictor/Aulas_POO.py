@@ -28,3 +28,4 @@ obj3 = Pix()
 obj1.pagar()
 obj2.pagar()
 obj3.pagar()
+
