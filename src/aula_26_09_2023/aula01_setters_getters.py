@@ -5,10 +5,10 @@ class Pessoas:
     def __init__(self):
         self.__nome = " "
         self.__cpf = " "
-        self.__rg = " "
+        self.__rg = " " 
     
     #getter a setter
-    def get_nome(self):
+    def get_nome(self): 
         return self.__nome
     
     def set_nome(self, nome):
