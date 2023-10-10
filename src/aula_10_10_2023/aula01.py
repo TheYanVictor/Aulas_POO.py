@@ -12,7 +12,7 @@ class MediaBemestre(Media):
     def __init__(self, notas):
         self.notas = notas 
     def calcula(self):
-        calc = (p1 + p2)/2
+        calc = sum(self.notas)/len(self.notas)
         return (calc)
     
 
